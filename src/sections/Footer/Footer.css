@@ -1,0 +1,16 @@
+footer p {
+    text-align: center;
+    padding: calc(var(--padding-primary) / 2);
+    color: var(--color-light);
+    font-weight: var(--font-wight-normal);
+  }
+  
+  footer p a {
+    color: var(--color-light);
+    transition: all .3s;
+    text-decoration: none;
+  }
+  
+  footer p a:hover {
+    color: var(--color-primary);
+  }
